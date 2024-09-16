@@ -1,7 +1,4 @@
-
-  
-    /*-----navybox-----*/
-  .navybox {
+   .navybox {
     position: relative;
     background: navy; /* Use 'background' instead of 'background-color' */
     padding: 20px;
@@ -45,9 +42,9 @@
   }
 
     /*-----finish navybox-----*/
-
-    /*-----Board-----*/
   
+
+    /*-----PageName-----*/
 
   #h1Name{
     display: flex;
@@ -55,24 +52,71 @@
     justify-content: center;
     align-items: center;
     height: 8vh;
-
-
-    /*-----Finish Board-----*/
-
   }
-  #ludo_board {
+
+ 
+
+  #main_body {
+    height: 70vh;
+    border-collapse: collapse;
+    background-image: url('../images/black-1072366_1920.jpg');
+    border: solid black 1px;
+    text-align: center;
+    position: relative;
+    
+  }
+
+   #ludo_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #main_body p{
+    color: white;
+    font-size: large;
+  }
+
+  #ui_Chat{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    width: 10%;
+    background-color: white;
+    color: black;
+  }
+
+  #form{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
     border-collapse: collapse;
-    background-image: url('/www/images/black-1072366_1920.jpg');
-    border: solid black 1px;
-    text-align: center;
-    position: relative;
+    
   }
 
-    /*-----Finish Board-----*/
+  inputt{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+
+  }  
+  
+  #submit{
+    width: 100%; /* Make the button as wide as the input fields */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+
+    /*-----Finish Form-----*/
   
     /*-----Buttton-----*/
 
@@ -105,5 +149,4 @@
     background-color: navy;
 
   }
-
-    /*-----Finish Media Query-----*/
+ 
